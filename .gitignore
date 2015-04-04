@@ -129,3 +129,7 @@ com_crashlytics_export_strings.xml
 
 # sftp configuration file
 sftp-config.json
+
+############################################################################
+# CUSTOM
+af-client-bundle.zip
