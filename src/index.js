@@ -445,7 +445,7 @@ Object.keys(AFClient).forEach(key => {
 
       AFClient[key].apply(null, args);
     });
-  }
+  };
 });
 
-export default AFClient
+export default AFClient;

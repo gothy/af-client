@@ -1,16 +1,17 @@
+/* global AFClient */
 'use strict';
 
 jasmine.DEFAULT_TIMEOUT_INTERVAL = 2000;
 
-require("babel/polyfill");
+require('babel/polyfill');
 
 var _apiUrl = function(tail) {
   return 'http://alfafile.net/api/v1' + tail + 'token=&';
-}
+};
 
 var _recentUrl = function() {
   return jasmine.Ajax.requests.mostRecent().url;
-}
+};
 
 describe('Public method list', function() {
   var methods = ['userLogin', 'userInfo', 'fileUpload', 'fileRename', 'fileDelete', 'fileMove',
