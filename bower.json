@@ -1,0 +1,15 @@
+{
+  "name": "af-client",
+  "version": "0.1.0",
+  "authors": [
+    "gothy"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
